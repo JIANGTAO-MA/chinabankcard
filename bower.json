@@ -1,0 +1,23 @@
+{
+  "name": "chinabankcard",
+  "description": "中国各个银行卡号自动识别",
+  "main": "gulpfile.js",
+  "authors": [
+    "jiahuijie"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "bootstrap": "~3.3.6"
+  }
+}

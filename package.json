@@ -1,0 +1,32 @@
+{
+  "name": "chinabankcard",
+  "version": "1.0.0",
+  "description": "中国各个银行卡号自动识别",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jiahuijie",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.7.5",
+    "browser-sync": "^2.11.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-cache": "^0.4.1",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-sass": "^2.1.1",
+    "gulp-uglify": "^1.5.1",
+    "gulp-useref": "^3.0.4",
+    "gulp-util": "^3.0.7",
+    "proxy-middleware": "^0.15.0",
+    "readable-stream": "^2.0.5",
+    "run-sequence": "^1.1.5",
+    "url": "^0.11.0"
+  },
+  "dependencies": {
+    "gulp-bower": "0.0.12"
+  }
+}
