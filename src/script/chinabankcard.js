@@ -239,14 +239,19 @@
             var _input = $("#" + inputId);
             var _select = $("#" + selectId);
 
+            _select.attr('readonly', 'true');
+
             _input.keyup(function(e){
                 var tempVal = _input.val();
                 if (tempVal.length >= 6){
                     var tempSelectItem = banks[tempVal.substring(0,6)];
-                    console.log(tempSelectItem);
                     if (tempSelectItem){
                         _select.val(tempSelectItem.bankName);
+                    } else {
+                        _select.val("无法识别该银行卡");
                     }
+                } else {
+                    _select.val("");
                 }
             });
         }
