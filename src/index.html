@@ -26,26 +26,19 @@
     <form>
         <div class="form-group">
             <label>银行卡号</label>
-            <input type="email" class="form-control" placeholder="请输入转账银行卡号">
+            <input id="testInput" type="text" class="form-control" placeholder="请输入转账银行卡号">
         </div>
 
         <div class="form-group">
             <label>转账银行</label>
             <div class="input-group">
                 <span class="input-group-addon"><i class="glyphicon glyphicon-credit-card"></i></span>
-                <select class="form-control">
-                    <option>- 请选择转账银行 -</option>
-                    <option>中国人民银行</option>
-                    <option>中国建设银行</option>
-                    <option>中国工商银行</option>
-                    <option>中国农业银行</option>
-                    <option>杭州银行</option>
-                </select>
+                <input id="testSelect" type="text" class="form-control" placeholder="请输入转账银行">
             </div>
         </div>
 
         <div class="form-group text-right">
-            <button type="submit" class="btn btn-default">确认转账</button>
+            <button type="button" class="btn btn-default">确认转账</button>
         </div>
     </form>
 </div>
@@ -54,6 +47,9 @@
 
 <script src="vendor/jquery/dist/jquery.js"></script>
 <script src="vendor/bootstrap/dist/js/bootstrap.js"></script>
+
+<script src="script/chinabankcard.js"></script>
+<script src="script/demo.js"></script>
 <!-- build:js script/vendor.min.js -->
 <!-- bower:js -->
 <!-- endbower -->
